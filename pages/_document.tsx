@@ -9,11 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-          <meta name="description" content="Prototype App using Next.js" />
-          <meta name="keywords" content="PWA, Typescript, Next, Next.js, React" />
-          <link rel="manifest" href="/manifest.json" />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
