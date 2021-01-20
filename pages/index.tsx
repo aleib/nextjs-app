@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from 'next/link'
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Hello Next.js 👋</h1>
+        <h1>Hello Next.js 👋 + FeaturePeek</h1>
         <p>
           <Link href="/about">
             <a>About</a>
